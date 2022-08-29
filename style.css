@@ -45,12 +45,17 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
     color: yellow;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
     width: 100vw;
     text-align: center;
+
 }
 
 #title{
@@ -65,6 +70,7 @@ body{
 
 #list th{
     vertical-align: center;
+    background:#FFB;
 }
 
 #list td{
@@ -73,10 +79,11 @@ body{
     padding: 20 20 20 20;
 }
 
-col:nth-child(odd) {
+#list tr:nth-child(odd) {
     background:#DDD;
   }
   
-  col:nth-child(even) {
+  #list tr:nth-child(even) {
     background:#FFF;
   }
+
